@@ -6,8 +6,7 @@ use App\Entity\Weapon;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\Persistence\ObjectManager;
 
-class LoadWeapon extends Fixture
-{
+class LoadWeapon extends Fixture {
     public function load(ObjectManager $manager)
     {
         $weapons = [
